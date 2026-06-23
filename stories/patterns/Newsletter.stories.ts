@@ -1,9 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit';
+import { patternParameters } from './shared.js';
 
 const meta: Meta = {
   title: 'Patterns/Newsletter',
   tags: ['autodocs'],
+  parameters: patternParameters,
 };
 export default meta;
 type Story = StoryObj;
