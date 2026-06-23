@@ -229,7 +229,30 @@ twip-button::part(button) {
 - `twip-toast` / `twip-toaster` — Stacked notification region with imperative API.
 - `twip-tooltip` — Accessible hover/focus tooltip.
 
-See Storybook for live examples and props.
+### Patterns (section layouts)
+
+Pre-built landing-page sections that compose the primitives above. Import
+`@twip/components/define/patterns` to register all pattern elements.
+
+- `twip-hero-section` — Hero with eyebrow, headline, actions, and optional media (stacked or split).
+- `twip-features-section` — Feature grid with configurable columns.
+- `twip-cta-section` — Call-to-action band with brand, soft, or bordered variants.
+- `twip-faq-section` — FAQ layout with a slot for `twip-accordion`.
+- `twip-testimonials-section` — Testimonial card grid.
+- `twip-stats-section` — Key metrics row with optional dividers.
+- `twip-logo-cloud-section` — Trusted-by logo strip.
+- `twip-newsletter-section` — Email signup with form slot.
+- `twip-pricing-section` — Pricing tier grid.
+- `twip-team-section` — Team member grid with avatar slots.
+- `twip-steps-section` — How-it-works with stepper or step cards.
+- `twip-bento-section` — Asymmetric bento feature grid.
+- `twip-banner-section` — Compact site-wide announcement bar.
+- `twip-split-section` — Two-column content beside media.
+- `twip-contact-section` — Contact form with side info panel.
+- `twip-content-section` — General-purpose prose / article section.
+- `twip-social-proof-section` — Avatar stack, rating, and supporting copy.
+
+See Storybook under **Patterns** for live examples.
 
 ## Development
 
