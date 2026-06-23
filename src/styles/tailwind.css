@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :host {
+    box-sizing: border-box;
+    font-family: theme('fontFamily.sans');
+  }
+
+  :host *,
+  :host *::before,
+  :host *::after {
+    box-sizing: border-box;
+  }
+
+  :host([hidden]) {
+    display: none !important;
+  }
+}

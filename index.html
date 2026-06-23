@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twip — Tailwind Web Components</title>
+  </head>
+  <body class="bg-gray-50">
+    <main class="mx-auto max-w-3xl space-y-8 p-8">
+      <h1 class="text-2xl font-bold">Twip components</h1>
+
+      <section class="space-y-3">
+        <h2 class="text-lg font-semibold">Buttons</h2>
+        <div class="flex flex-wrap gap-2">
+          <twip-button>Primary</twip-button>
+          <twip-button variant="secondary">Secondary</twip-button>
+          <twip-button variant="soft">Soft</twip-button>
+          <twip-button variant="outline">Outline</twip-button>
+          <twip-button variant="ghost">Ghost</twip-button>
+          <twip-button variant="destructive">Delete</twip-button>
+        </div>
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-lg font-semibold">Alerts</h2>
+        <twip-alert tone="info" heading="Heads up"
+          >Something informational happened.</twip-alert
+        >
+        <twip-alert tone="success" heading="Saved" dismissible
+          >Changes were saved.</twip-alert
+        >
+      </section>
+
+      <section class="space-y-3">
+        <h2 class="text-lg font-semibold">Card</h2>
+        <twip-card>
+          <div slot="header" class="font-semibold">Card header</div>
+          <p>Some body content.</p>
+          <div slot="footer" class="flex justify-end gap-2">
+            <twip-button variant="ghost">Cancel</twip-button>
+            <twip-button>Save</twip-button>
+          </div>
+        </twip-card>
+      </section>
+    </main>
+
+    <script type="module">
+      import './src/define/all.ts';
+    </script>
+  </body>
+</html>
