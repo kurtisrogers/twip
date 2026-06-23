@@ -20,14 +20,31 @@
  * ```
  */
 
+import './accordion.js';
 import './alert.js';
 import './avatar.js';
 import './badge.js';
+import './breadcrumb.js';
 import './button.js';
 import './card.js';
+import './checkbox.js';
+import './divider.js';
 import './dropdown.js';
+import './empty-state.js';
 import './input.js';
+import './kbd.js';
 import './modal.js';
+import './pagination.js';
+import './progress.js';
+import './radio.js';
+import './rating.js';
+import './select.js';
+import './skeleton.js';
+import './slider.js';
+import './spinner.js';
+import './stepper.js';
 import './switch.js';
 import './tabs.js';
+import './textarea.js';
+import './toast.js';
 import './tooltip.js';
