@@ -1,0 +1,21 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# Twip — Tailwind-flavored web components
+
+A framework-agnostic component library built with [Lit](https://lit.dev) and styled with [Tailwind CSS](https://tailwindcss.com).
+
+- **Works everywhere.** Plain custom elements. Drop into React, Vue, Svelte, Angular, vanilla HTML, or Django templates.
+- **Tree-shakeable.** Each component ships as its own ESM chunk. Import only the registration modules you need.
+- **Themeable.** Tailwind drives the look. Re-skin globally via the Tailwind config or per-instance via CSS variables and `::part(...)`.
+
+## Quick start
+
+```ts
+import '@twip/components/define/button';
+
+document.body.innerHTML = `<twip-button>Hello</twip-button>`;
+```
+
+Browse the sidebar for each component's API, controls, and stories.
