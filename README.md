@@ -200,18 +200,33 @@ twip-button::part(button) {
 
 ## Components
 
-Initial component set:
-
+- `twip-accordion` / `twip-accordion-item` — Collapsible sections, single or multi-expand.
 - `twip-alert` — Inline message with tone, heading, dismiss control.
 - `twip-avatar` — User avatar with image, initials fallback, status dot.
 - `twip-badge` — Pill / chip with tone and variant.
+- `twip-breadcrumb` / `twip-breadcrumb-item` — Hierarchical navigation trail.
 - `twip-button` — Buttons and link-styled buttons with variants and loading state.
 - `twip-card` — Surface container with header / body / footer slots.
+- `twip-checkbox` — Form-associated checkbox with indeterminate state.
+- `twip-divider` — Horizontal or vertical separator with optional label.
 - `twip-dropdown` — Menu with keyboard navigation and outside-click dismiss.
+- `twip-empty-state` — Friendly placeholder with icon, copy, and actions.
 - `twip-input` — Form-associated text input with label, help, and error states.
+- `twip-kbd` — Keyboard shortcut indicator with chord support.
 - `twip-modal` — Built on the native `<dialog>` element.
+- `twip-pagination` — Page navigator with edge arrows and ellipsis windowing.
+- `twip-progress` — Determinate or indeterminate linear progress bar.
+- `twip-radio` / `twip-radio-group` — Form-associated single-select radio group.
+- `twip-rating` — Star rating, read-only or interactive, with half-star support.
+- `twip-select` — Form-associated native select wrapper with label and errors.
+- `twip-skeleton` — Animated loading placeholder (text, rect, or circle).
+- `twip-slider` — Form-associated range slider.
+- `twip-spinner` — CSS spinner with tone / size variants.
+- `twip-stepper` — Multi-step progress indicator, horizontal or vertical.
 - `twip-switch` — Form-associated toggle.
 - `twip-tabs` — Tablist with three variants (underline, pill, segmented).
+- `twip-textarea` — Form-associated multiline input with optional auto-resize.
+- `twip-toast` / `twip-toaster` — Stacked notification region with imperative API.
 - `twip-tooltip` — Accessible hover/focus tooltip.
 
 See Storybook for live examples and props.
