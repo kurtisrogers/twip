@@ -45,3 +45,4 @@ export * from './components/tabs/index.js';
 export * from './components/textarea/index.js';
 export * from './components/toast/index.js';
 export * from './components/tooltip/index.js';
+export * from './components/patterns/index.js';

@@ -48,3 +48,4 @@ import './tabs.js';
 import './textarea.js';
 import './toast.js';
 import './tooltip.js';
+import './patterns.js';
