@@ -6,6 +6,8 @@ styled with [Tailwind CSS](https://tailwindcss.com), and shipped as standard
 custom elements so the same components work in **React**, **Vue**, **Svelte**,
 **Angular**, **vanilla HTML**, and **Django templates**.
 
+**[Browse Storybook →](https://kurtisrogers.github.io/twip/)** — live component and pattern docs.
+
 > **Note on scope.** Tailwind Plus is a proprietary, paid product from Tailwind
 > Labs. Twip is an independent, original implementation of common UI patterns
 > (buttons, alerts, dialogs, etc.) styled with Tailwind utilities. It is **not**
@@ -13,6 +15,7 @@ custom elements so the same components work in **React**, **Vue**, **Svelte**,
 
 ## Table of contents
 
+- [Storybook](https://kurtisrogers.github.io/twip/)
 - [Features](#features)
 - [Install](#install)
 - [Quick start](#quick-start)
@@ -35,7 +38,8 @@ custom elements so the same components work in **React**, **Vue**, **Svelte**,
   trapping, top-layer rendering, and Escape-to-close come for free.
 - **Form-associated.** Inputs and switches use `ElementInternals` so they
   participate in native form submission.
-- **Storybook.** Every component documented and deployed to GitHub Pages.
+- **Storybook.** Every component and section pattern documented at
+  [kurtisrogers.github.io/twip](https://kurtisrogers.github.io/twip/).
 - **Bun-first DX.** Bun for installs, scripts, and tests (`bun test`).
 
 ## Install
@@ -252,7 +256,8 @@ Pre-built landing-page sections that compose the primitives above. Import
 - `twip-content-section` — General-purpose prose / article section.
 - `twip-social-proof-section` — Avatar stack, rating, and supporting copy.
 
-See Storybook under **Patterns** for live examples.
+See Storybook under **Patterns** for live examples:
+[https://kurtisrogers.github.io/twip/](https://kurtisrogers.github.io/twip/)
 
 ## Development
 
@@ -263,7 +268,8 @@ bun install
 # Vanilla HTML playground at http://localhost:5173
 bun run dev
 
-# Storybook at http://localhost:6006
+# Storybook — https://kurtisrogers.github.io/twip/ (live)
+# Local dev at http://localhost:6006
 bun run storybook
 
 # Tests
